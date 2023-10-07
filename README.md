@@ -12,7 +12,7 @@ npm install
 ### Modificación de Archivo de Configuración 
 Archivo .env
 
-YOUR_PRIVATE_KEY_WALLET_ADDRESS, este dato se debe obtener de cuanta que se utilizara para desplegar el contrato.
+YOUR_PRIVATE_KEY_WALLET_ADDRESS, este dato se debe obtener de la cuenta que se utilizara para desplegar el contrato.
 YOUR_ETHERSCAN_API_KEY, esta clave se puede obtener creandose una cuenta en https://etherscan.io/, la clave la puede usar por ejemplo, en Remix.
 
 
