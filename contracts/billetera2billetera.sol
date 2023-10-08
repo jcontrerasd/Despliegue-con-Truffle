@@ -9,8 +9,7 @@ contract billetera2billetera  {
     mapping (address => uint256) saldos;
 
   // Evento para notificar transferencias
-  
-    event FundsTransferred(address sender, address recipient, uint256 amount);
+     event FundsTransferred(address sender, address recipient, uint256 amount);
     
     constructor() {
         owner = msg.sender; //Set the owner of the contract. The only address that can register evidences.
@@ -41,7 +40,6 @@ contract billetera2billetera  {
         
         emit FundsTransferred(msg.sender, recipient, cantidad);
     }
-   
-    
+       
     receive() external payable {}
 }
