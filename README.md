@@ -1,34 +1,36 @@
-# Truffle-Sprint1
+# Smart Contract - Tranferencia entre Cuentas
+
 Smart Contract de introducción y lectura de datos, dentro de un proyecto Truffle con despliegue configurado.
 
 El contrato consta de 4 funciones :
 
-#Read Contract#
+## **Read Contract**
 
- 1.- obtenerBalance : Permite obtener el saldo de una cuenta especifica.
+**1.- obtenerBalance: **Permite obtener el saldo de una cuenta especifica.
  
- 2.- owner : Indica quien es el dueño del contrato.
+** 2.- owner :** Indica quien es el dueño del contrato.
 
-#Write Contract#
+## Write Contract
 
- 1.- setOwner : Permite transferir la propiedad del contrato a otra cuenta.
+** 1.- setOwner : **Permite transferir la propiedad del contrato a otra cuenta.
  
- 2.- transferFunds : Permite transferir eth desde la cuenta owner del contrato a otra que se defina.
+** 2.- transferFunds : **Permite transferir eth desde la cuenta owner del contrato a otra que se defina.
 
 
-## Truffle Guide
 
-#### Installation
+## Instalación de Truffle
 ```sh
 npm install -g truffle
 npm install
 ```
 
-# PASO 1.- Modificación de Archivo de Configuración 
-## Archivo .env
+# PASO A PASO
 
-YOUR_PRIVATE_KEY_WALLET_ADDRESS, este dato se debe obtener de la cuenta que se utilizara para desplegar el contrato.
-YOUR_ETHERSCAN_API_KEY, esta clave se puede obtener creandose una cuenta en https://etherscan.io/, la clave la puede usar por ejemplo, en Remix.
+### PASO 1.- Modificación de Archivo de Configuración 
+- [x] #### Archivo .env
+
+1. **YOUR_PRIVATE_KEY_WALLET_ADDRESS : ** Este dato se debe obtener de la cuenta que se utilizara para desplegar el contrato.
+1. **YOUR_ETHERSCAN_API_KEY : ** Esta clave se puede obtener creandose una cuenta en https://etherscan.io/, la clave la puede usar por ejemplo, en Remix.
 
 
 # PASO 2.- Deployment
