@@ -6,9 +6,9 @@ El contrato consta de 4 funciones :
 
 ## **Read Contract**
 ```sh
-1.- obtenerBalance: Permite obtener el saldo de una cuenta especifica.
+**1.- obtenerBalance:** Permite obtener el saldo de una cuenta especifica.
  
-2.- owner : Indica quien es el dueño del contrato.
+**2.- owner :** Indica quien es el dueño del contrato.
 ```
 
 ## Write Contract
