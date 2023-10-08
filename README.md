@@ -20,14 +20,14 @@ El contrato consta de 4 funciones :
 
 ## Instalación de Truffle
 ```sh
-*npm install -g truffle
-npm install*
+npm install -g truffle
+npm install
 ```
 
 # PASO A PASO
 
 ### PASO 1.- Modificación de Archivo de Configuración 
-- [x] #### Archivo .env
+[x] Archivo .env
 
 1. **YOUR_PRIVATE_KEY_WALLET_ADDRESS : ** Este dato se debe obtener de la cuenta que se utilizara para desplegar el contrato.
 1. **YOUR_ETHERSCAN_API_KEY : ** Esta clave se puede obtener creandose una cuenta en https://etherscan.io/, la clave la puede usar por ejemplo, en Remix.
