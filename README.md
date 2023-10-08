@@ -49,12 +49,15 @@ El valor dede TU_RED, lo encuentras en truffle-config.js, este contrato fue prob
 ```sh
 truffle run verify billetera2billetera@DEPLOYED_CONTRACT_ADDRESS --network TU_RED
 
-DEPLOYED_CONTRACT_ADDRESS, es entregado como resultado del paso anterior, hay que considerar la dirección del contrato billetera2billetera y no el Migrations.
+DEPLOYED_CONTRACT_ADDRESS : Es entregado como resultado del paso anterior.
+                            Se debe considerar la dirección del contrato billetera2billetera y no el Migrations.
 
 EJ: contract address:  0x71bd6306B0f72f945eDb55C17EE4d57382aF19B6.
 
 Con este paso queda verificado el contrato.
 
-Esto también es posible realizar desde goerli.etherscan.io encontrando el contraro y siguiendo los pasos y teniendo con el codigó original del contrato.
+```sh
+Esto también es posible realizarse desde goerli.etherscan.io encontrando el contrato,
+siguiendo los pasos y teniendo con el codigó original del contrato.
 ```
-
+```
