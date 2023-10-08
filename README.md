@@ -40,9 +40,10 @@ npm install
 Dentro del directorio Truffle-Sprint1-main, ejecutar los siguientes comandos 
 
 1.- truffle compile
-2.- truffle migrate --network TU_RED
+2.- truffle migrate --network **TU_RED**
 
-El valor dede TU_RED, lo encuentras en truffle-config.js, este contrato fue probado en ethereum_goerli_testnet
+El valor dede **TU_RED**, se encuentras en **truffle-config.js**.
+_**Este contrato fue probado en ethereum_goerli_testnet.**_
 ```
 
 # PASO 3.- Verification
@@ -50,7 +51,7 @@ El valor dede TU_RED, lo encuentras en truffle-config.js, este contrato fue prob
 truffle run verify billetera2billetera@DEPLOYED_CONTRACT_ADDRESS --network TU_RED
 
 DEPLOYED_CONTRACT_ADDRESS : Es entregado como resultado del paso anterior.
-                            Se debe considerar la dirección del contrato billetera2billetera y no el Migrations.
+Se debe considerar la dirección del contrato billetera2billetera y no el Migrations.
 
 EJ: contract address:  0x71bd6306B0f72f945eDb55C17EE4d57382aF19B6.
 
