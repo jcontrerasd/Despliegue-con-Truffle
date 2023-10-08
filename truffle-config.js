@@ -1,7 +1,6 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const fs = require('fs');
 
-
 require("dotenv").config();
 
 const private_key = process.env.SIGNER_PRIVATE_KEY;
