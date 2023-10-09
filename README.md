@@ -13,7 +13,7 @@ El contrato consta de 4 funciones :
 
 ## Write Contract
 ```sh
-**1.- setOwner :** Permite transferir la propiedad del contrato a otra cuenta.
+**1.- setOwner :** Permite transferir la propiedad del contrato a otra cuenta en wei.
  
 **2.- transferFunds :** Permite transferir eth desde la cuenta owner del contrato a otra que se defina.
 ```
