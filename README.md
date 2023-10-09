@@ -1,6 +1,12 @@
 # Smart Contract - Tranferencia entre Cuentas
 
 Smart Contract de introducción y lectura de datos, dentro de un proyecto Truffle con despliegue configurado.
+## **Herramientas** ##
+* Testnet : goerli
+* Wallet : Metamask
+* Framework de Desarrollo : Truffle
+* Entorno de Desarrollo integrado (IDE) complementario : Remix
+* Explorador de bloques : goerli.etherscan.io
 
 El contrato consta de 4 funciones :
 
