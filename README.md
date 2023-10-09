@@ -6,7 +6,7 @@ El contrato consta de 4 funciones :
 
 ## **Read Contract**
 ```sh
-**1.- obtenerBalance:** Permite obtener el saldo de una cuenta especifica.
+**1.- obtenerBalance :** Permite obtener el saldo de una cuenta especifica.
  
 **2.- owner :** Indica quien es el dueño del contrato.
 ```
@@ -35,7 +35,7 @@ npm install
    La clave la puede usar por ejemplo, en **Remix**.
 ```
 
-# PASO 2.- Deployment
+### PASO 2.- Deployment
 ```sh
 Dentro del directorio Truffle-Sprint1-main, ejecutar los siguientes comandos 
 
@@ -46,7 +46,7 @@ El valor dede **TU_RED**, se encuentras en **truffle-config.js**.
 _**Este contrato fue probado en ethereum_goerli_testnet.**_
 ```
 
-# PASO 3.- Verification
+### PASO 3.- Verificación
 ```sh
 truffle run verify billetera2billetera@DEPLOYED_CONTRACT_ADDRESS --network TU_RED
 
